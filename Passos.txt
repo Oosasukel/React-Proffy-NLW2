@@ -1,0 +1,7 @@
+Criação do projeto:
+
+npx create-react-app web --template typescript
+
+npm install react-router-dom
+npm install @types/react-router-dom
+
