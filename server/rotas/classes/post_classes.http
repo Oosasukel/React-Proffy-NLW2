@@ -6,7 +6,7 @@ Content-Type: application/json
     "avatar": "https://avatars2.githubusercontent.com/u/58633356?s=460&u=cff380187b6ae342bddd67343967f63ec7a45fe0&v=4",
     "whatsapp": "5515997332834",
     "bio": "CTO at GFT",
-    "subject": "Matemática",
+    "subject": "Matematica",
     "cost": 80,
     "schedule": [
         {"week_day": 1, "from": "8:00", "to": "12:00"},

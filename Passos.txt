@@ -1,7 +1,36 @@
-Criação do projeto:
+Criação do projeto react:
 
 npx create-react-app web --template typescript
 
 npm install react-router-dom
 npm install @types/react-router-dom
 
+//facilita requisições externas
+npm install axios
+npm install @types/axios -D
+
+Criação do projeto node:
+
+//package.json
+npm init -y
+
+//typescript -D é dev
+npm install typescript -D
+npx tsc --init
+
+//mudar target do tsconfig.json para es2017
+
+//Para reiniciar automaticamente o server
+npm install ts-node-dev -D
+
+"start": "tsnd --transpile-only --ignore-watch node_modules --respawn src/server.ts"
+
+npm install express 
+npm install @types/express -D
+
+//Instalando knex
+npm install knex sqlite3
+
+//Instalando cors
+npm install cors
+npm install @types/cors -D

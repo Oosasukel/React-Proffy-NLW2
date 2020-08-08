@@ -1,1 +1,1 @@
-GET http://localhost:3333/classes?week_day=1&subject=Matematica&time=9%3A00
+GET http://localhost:3333/classes?week_day=1&subject=Matematica&time=8%3A30
