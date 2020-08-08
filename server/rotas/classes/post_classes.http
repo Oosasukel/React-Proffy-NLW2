@@ -1,0 +1,16 @@
+POST http://localhost:3333/classes
+Content-Type: application/json
+
+{
+    "name": "Rodrigo Gonçalves",
+    "avatar": "https://avatars2.githubusercontent.com/u/58633356?s=460&u=cff380187b6ae342bddd67343967f63ec7a45fe0&v=4",
+    "whatsapp": "5515997332834",
+    "bio": "CTO at GFT",
+    "subject": "Matemática",
+    "cost": 80,
+    "schedule": [
+        {"week_day": 1, "from": "8:00", "to": "12:00"},
+        {"week_day": 3, "from": "10:00", "to": "18:00"},
+        {"week_day": 4, "from": "8:00", "to": "12:00"}
+    ]
+}
