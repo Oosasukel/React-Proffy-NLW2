@@ -1,3 +1,4 @@
+--------------------------------------------------------------
 Criação do projeto react:
 
 npx create-react-app web --template typescript
@@ -9,6 +10,7 @@ npm install @types/react-router-dom
 npm install axios
 npm install @types/axios -D
 
+--------------------------------------------------------------
 Criação do projeto node:
 
 //package.json
@@ -34,3 +36,26 @@ npm install knex sqlite3
 //Instalando cors
 npm install cors
 npm install @types/cors -D
+
+--------------------------------------------------------------
+Criação do projeto react-native
+
+npm install expo-cli --global
+
+//cria app chamado mobile
+expo init mobile
+
+//importar png
+@types
+index.d.ts
+
+declare module '*.png';
+
+//fontes
+expo install expo-font @expo-google-fonts/archivo @expo-google-fonts/poppins
+
+//react navigation
+npm install @react-navigation/native
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+npm install @react-navigation/stack
+npm install @react-navigation/bottom-tabs
