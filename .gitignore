@@ -53,8 +53,4 @@ mobile/*.p8
 mobile/*.p12
 mobile/*.key
 mobile/*.mobileprovision
-mobile/*.orig.*
 mobile/web-build/
-
-# macOS
-.DS_Store
